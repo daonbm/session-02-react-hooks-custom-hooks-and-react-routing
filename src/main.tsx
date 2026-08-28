@@ -5,6 +5,7 @@ import App2 from './App2.tsx'
 import { BrowserRouter } from 'react-router-dom'
 import App3 from './App3.tsx'
 import App4 from './App4.tsx'
+import App5 from './App5.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <BrowserRouter>
       <App3/>
     </BrowserRouter> */}
-    <App4/>
+    {/* <App4/> */}
+    <App5/>
   </StrictMode>,
 )
